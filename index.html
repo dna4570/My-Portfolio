@@ -12,9 +12,105 @@
     <link rel="shortcut icon" href="images/favicon.ico.png">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/222n.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9b05599f08.js" crossorigin="anonymous"></script>
 <body>
+<header class="py-4">
+<div class="container text-conter">
+  <h1><a href=index.html"><img src="images/Pixel Art.jpg" width="50" height="50" alt"カフェ" N COFFEE"></a> N COFFEE</h1>
+</div>
+</header>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+    aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Features</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Pricing</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="slider">
+<div id="headerSlider" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+    <li data-target="#headerSlider" data-slide-to="1"></li>
+    <li data-target="#headerSlider" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="images/imgshot2.png">
+      <div class="carousel-caption">
+        <h5>Mr.COFFEEのこだわり</h5>
+        <p>店主が世界中のコーヒーを厳選し、コーヒー豆の種類に合わせて、心を込めて抽出しております。
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/imgshot2.png">
+      <div class="carousel-caption">
+        <h5>COFFEE TIME</h5>
+        <p>コーヒーはもちろん、モーニング、ワンプレートランチも講評いただいております。
+        </p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="images/imgshot2.png">
+      <div class="carousel-caption">
+        <h5>D.I.Y COFFEE-MODANの空間</h5>
+        <P>是非、お気軽にお立ち寄りください。</P>
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+<!-- コンテンツ01 -->
+<div class="py-4">
+  <section id="news">
+    <div class="container">
+      <div class="row">
+        <!-- 左側カラム (画面幅md以上) -->
+        <div class="col-md-2">
+          <h3>MEWS</h3>
+        </div>
+        <!-- 右側カラム (画面幅md以上) -->
+        <div class="col-md-10">
+          <dt class="col-md-3">2020年10月10日</dt>
+          <dd class="col-md-9">2020年10月10日</dd>
+          <dt class="col-md-3">2020年10月10日</dt>
+          <dd class="col-md-9">2020年10月10日</dd>
+          <dt class="col-md-3">2020年10月10日</dt>
+          <dd class="col-md-9">2020年10月10日</dd>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+
 <div class="mainslider_area">
     <div id="mainslider" class="mainslider_inner">
     <div class="mainslider_block">
@@ -24,12 +120,12 @@
             <div class="mainslider_slider-item_inner">
             <div class="mainslider_slider-item_con">
                 <div class="mainslider_slider-item_con_inner">
-                <p class="slider-item_title">COFFEE STYLE CAFE</p>
+                <p class="slider-item_title">COFFEEについて</p>
                 <div class="slider-item_sentence">
-                    <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+                    <p>XMr.COFFEEは店主が世界中からこだわりのコーヒー豆を仕入れ最高の空間とおもてなしをお客様にご提供する直焙煎のカフェです。コーヒー豆の種類にあわせて焙煎、抽出しております。また女性にちょうどいいワンプレートランチも講評いただいております。</p>
                 </div>
                 <div class="slider-item_btn-box">
-                    <a href="dummy.html" class="button">詳しく見る</a></div>
+                    <a href="dummy.html" class="button">メニューを見る</a></div>
                 </div>
             </div>
             <div class="mainslider_slider-item_img">
@@ -43,125 +139,88 @@
             </div>
         </div>
         <!-- Slider SET END -->
-        <!-- Slider SET Start -->
-        <div class="mainslider_slider-item mainslider_slider-item-2">
-            <div class="mainslider_slider-item_inner">
-            <div class="mainslider_slider-item_con">
-                <div class="mainslider_slider-item_con_inner">
-                <p class="slider-item_title">XXXXXXXXXXXXXX</p>
-                <div class="slider-item_sentence">
-                    <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。</p>
-                </div>
-                <div class="slider-item_btn-box"><a href="dummy.html" class="button">詳しく見る</a></div>
-                </div>
-            </div>
-            <div class="mainslider_slider-item_img">
-                <div class="mainslider_img_box"
-                style="background-image:url('images/cafe-984275_1920.jpg');">
-                <div class="mainslider_motif"
-                    style="background-image:url('images/cafe-984275_1920.jpg');">
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <!-- Slider SET END -->
-        <!-- Slider SET Start -->
-        <div class="mainslider_slider-item mainslider_slider-item-3">
-            <div class="mainslider_slider-item_inner">
-            <div class="mainslider_slider-item_con">
-                <div class="mainslider_slider-item_con_inner">
-                <p class="slider-item_title">xxxxxxxxxxxxxxxxx</p>
-                <div class="slider-item_sentence">
-                    <p>XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。</p>
-                </div>
-                <div class="slider-item_btn-box">
-                    <a href="dummy.html" class="button">詳しく見る</a></div>
-                </div>
-            </div>
-            <div class="mainslider_slider-item_img">
-                <div class="mainslider_img_box"
-                style="background-image:url('images/cafe-984275_1920.jpg');">
-                <div class="mainslider_motif"
-                    style="background-image:url('images/cafe-984275_1920.jpg');">
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <!-- Slider SET END -->
-        <!-- Slider SET Start -->
-        <div class="mainslider_slider-item mainslider_slider-item-4">
-            <div class="mainslider_slider-item_inner">
-            <div class="mainslider_slider-item_con">
-              <div class="mainslider_slider-item_con_inner">
-                <p class="slider-item_title">これは、ダミーのタイトルです。ダミーのタイトルです。</p>
-                <div class="slider-item_sentence">
-                    <p>これは、ダミーの文章です。これは、ダミーの文章です。これは、ダミーの文章です。これは、ダミーの文章です。</p>
-                </div>
-                <div class="slider-item_btn-box">
-                    <a href="dummy.html" class="button">詳しく見る</a>
-                </div>
-              </div>
-            </div>
-            <div class="mainslider_slider-item_img none-motif">
-              <div class="mainslider_img_box"
-                style="background-image:url('images/cafe-984275_1920.jpg');">
-                <div class="mainslider_motif"
-                  style="background-image:url('images/cafe-984275_1920.jpg');">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- Slider SET END -->
       </div>
-      <div class="mainslider_ingicator">
-        <div class="mainslider_ingicator_con">
-          <div class="mainslider_ingicator_con_inner">
-            <ul class="mainslider_ingicator_con_item_outer">
-              <li class="mainslider_ingicator_con_item">
-                <span class="mainslider_ingicator_con_item_title">01</span>
-                <div class="mainslider_ingicator_con_item_bar"></div>
-              </li>
-              <li class="mainslider_ingicator_con_item">
-                <span class="mainslider_ingicator_con_item_title">02</span>
-                <div class="mainslider_ingicator_con_item_bar"></div>
-              </li>
-              <li class="mainslider_ingicator_con_item">
-                <span class="mainslider_ingicator_con_item_title">03</span>
-                <div class="mainslider_ingicator_con_item_bar"></div>
-              </li>
-              <li class="mainslider_ingicator_con_item">
-                <span class="mainslider_ingicator_con_item_title">04</span>
-                <div class="mainslider_ingicator_con_item_bar"></div>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="mainslider_ingicator_space"></div>
-      </div>
-        <!--mainslider_ingicator END-->
+
     </div>
     </div>
 </div>
+
+<<div class="sect_comp">
+  <div class="sect_comp_inner">
+    <div class="fl_box pc_col3 gap_pc_n card_category">
+      <div class="fl_col">
+        <a href="#" class="">
+          <div class="img_box"><img
+              src="images/MG_9817.jpg" alt="" /></div>
+          <div class="text_box">
+            <div class="date_box">
+              <p><span class="label label_new">NEW</span>07-17-2019</p>
+            </div>
+            <p class="">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+          </div>
+          <div class="category_box">
+            <ul>
+              <li>NEWS</li>
+            </ul>
+          </div>
+        </a>
+      </div>
+      <div class="fl_col">
+        <a href="#" class="">
+          <div class="img_box"><img src="images/MG_9817.jpg" alt="" /></div>
+          <div class="text_box">
+            <div class="date_box">
+              <p>
+                <!--<span class="label label_new">NEW</span>-->07-17-2019</p>
+            </div>
+            <p class="">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx</p>
+          </div>
+          <div class="category_box">
+            <ul>
+              <li>NEWS</li>
+            </ul>
+          </div>
+        </a>
+      </div>
+      <div class="fl_col">
+        <a href="#" class="">
+          <div class="img_box"><img src="images/MG_9817.jpg" alt="" /></div>
+          <div class="text_box">
+            <div class="date_box">
+              <p>
+                <!--<span class="label label_new">NEW</span>-->07-17-2019</p>
+            </div>
+            <p class="">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+            </div>
+            <div class="category_box">
+            <ul>
+                <li>NEWS</li>
+            </ul>
+            </div>
+        </a>
+        </div>
+    </div>
+    </div><!-- .sect_comp_inner END -->
+</div><!-- .sect_comp END -->
+
 <div class="sect_comp breadcrmb_bg">
     <div class="sect_comp_inner breadcrmb_scroll breadcrmb_inner">
     <div class="breadcrmb">
     <ul>
-        <li><a href="#">ホーム</a></li>
-        <li><a href="#">製品・サービス</a></li>
-        <li><a href="#">CAFEシステム</a></li>
-        <li><a href="#">ソリューション</a></li>
-        <li><a href="#">省エネCAFEシステム</a></li>
-        <li><a href="#">ビジネス支援システム</a></li>
+        <li><a href="#">navi</a></li>
+        <li><a href="#">カルーセル</a></li>
+        <li><a href="#">Mr.Coffeeについて</a></li>
+        <li><a href="#">コンテンツ</a></li>
+        <li><a href="#">infomation</a></li>
+        <li><a href="#">SHOP</a></li>
     </ul>
     </div>
     </div><!-- .sect_comp_inner END -->
 </div><!-- .sect_comp END -->
 <div class="sect_comp">
     <div class="sect_comp_inner">
-    <h1>Contents</h1>
+    <h1>Coupon</h1>
+    <p>食後のコーヒープラス100円にてご提供</p>
     </div>
 </div>
 <div class="pagetitle_area">
@@ -236,151 +295,34 @@
     </div>
   </div><!-- .sect_comp_inner END -->
 </div><!-- .sect_comp END -->
-<div class="sect_comp">
-  <div class="sect_comp_inner">
-    <div class="fl_box pc_col3 gap_pc_n card_category">
-      <div class="fl_col">
-        <a href="#" class="">
-          <div class="img_box"><img
-              src="images/MG_9817.jpg" alt="" /></div>
-          <div class="text_box">
-            <div class="date_box">
-              <p><span class="label label_new">NEW</span>07-17-2019</p>
-            </div>
-            <p class="">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-          </div>
-          <div class="category_box">
-            <ul>
-              <li>NEWS</li>
-            </ul>
-          </div>
-        </a>
-      </div>
-      <div class="fl_col">
-        <a href="#" class="">
-          <div class="img_box"><img src="images/MG_9817.jpg" alt="" /></div>
-          <div class="text_box">
-            <div class="date_box">
-              <p>
-                <!--<span class="label label_new">NEW</span>-->07-17-2019</p>
-            </div>
-            <p class="">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXx</p>
-          </div>
-          <div class="category_box">
-            <ul>
-              <li>NEWS</li>
-            </ul>
-          </div>
-        </a>
-      </div>
-      <div class="fl_col">
-        <a href="#" class="">
-          <div class="img_box"><img src="images/MG_9817.jpg" alt="" /></div>
-          <div class="text_box">
-            <div class="date_box">
-              <p>
-                <!--<span class="label label_new">NEW</span>-->07-17-2019</p>
-            </div>
-            <p class="">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-            </div>
-            <div class="category_box">
-            <ul>
-                <li>NEWS</li>
-            </ul>
-            </div>
-        </a>
-        </div>
+
+<footer>
+  <div class="fl_box card_link pc_mabot60 sp_mabot50">
     <div class="fl_col">
-        <a href="#" class="">
-            <div class="img_box"><img src="images/MG_9817.jpg" alt="" /></div>
-            <div class="text_box">
-            <div class="date_box">
-                <p>
-                <!--<span class="label label_new">NEW</span>-->07-17-2019</p>
-            </div>
-            <p class="">XXXXXXXXXXXXXXXXXX</p>
-            </div>
-            <div class="category_box">
-            <ul>
-                <li>展示会</li>
-            </ul>
-            </div>
-        </a>
+      <a class="" href="#">
+        <div class="text_box">
+          <div class="date_box">
+            <p><span class="label label_important">重要なお知らせ</span>07-17-2019</p>
+          </div>
+          <p class="">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
         </div>
-        <div class="fl_col">
-        <a href="#" class="">
-            <div class="img_box"><img src="images/MG_9817.jpg" alt="" /></div>
-            <div class="text_box">
-            <div class="date_box">
-                <p>
-                <!--<span class="label label_new">NEW</span>-->07-17-2019</p>
-            </div>
-            <p class="">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-            </div>
-            <div class="category_box">
-            <ul>
-                <li>展示会</li>
-            </ul>
-            </div>
-        </a>
-        </div>
-        <div class="fl_col">
-        <a href="#" class="">
-            <div class="img_box"><img src="images/MG_9817.jpg" alt="" /></div>
-            <div class="text_box">
-            <div class="date_box">
-                <p>
-                <!--<span class="label label_new">NEW</span>-->07-17-2019</p>
-            </div>
-            <p class="">XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
-            </div>
-            <div class="category_box">
-            <ul>
-                <li>展示会</li>
-            </ul>
-            </div>
-        </a>
-        </div>
+      </a>
     </div>
-    </div><!-- .sect_comp_inner END -->
-</div><!-- .sect_comp END -->
-<div class="footer_banner_box">
-    <div class="footer_banner_inner">
-    <div class="fl_box pc_col2 gap_pc_n">
-        <div class="fl_col">
-        <a href="#">
-            <div class="img_box"><img
-                src="images/MG_9817.jpg"
-                alt="納入実績" /></div>
-            <p class="banner_title">納入実績</p>
-        </a>
-    </div>
-        <div class="fl_col">
-        <a href="#">
-            <div class="img_box"><img
-                src="images/MG_9817.jpg"
-                alt="海外拠点" /></div>
-            <p class="banner_title">海外拠点</p>
-        </a>
-        </div>
-    </div>
-    </div>
-</div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"
-        integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
-        integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
-        crossorigin="anonymous"></script>
+  </div>
+
+</footer>
+
     <!-- 商用だと有料らしい-->
     <script src="js/wow.min.js"></script>
     <script>new WOW().init();</script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script type="text/javascript" src="js/jQuery Mousewheel.min.js"></script>
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
